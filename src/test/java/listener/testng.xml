@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listener.lisren"/>
+    </listeners>
+    <test  name="orgApp">
+        <classes>
+            <class name="TAU.orgAPP">
+                <methods>
+                    <include name="signIn"/>
+                    <include name="userSearch"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
